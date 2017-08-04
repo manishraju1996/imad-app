@@ -1,6 +1,9 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    padding: 15px;
     margin-top: 75px;
 }
 
