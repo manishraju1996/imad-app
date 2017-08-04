@@ -18,5 +18,10 @@ body {
 
 .img-medium {
     height: 200px;
+     border-radius: 50px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    width: 200px;
 }
 
