@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: #a48fd6;
     background-image: url(img_flwr.gif), url(paper.gif);
     background-position: right bottom, left top;
     padding: 15px;
@@ -22,9 +22,6 @@ body {
 .img-medium {
     height: 200px;
      border-radius: 500px;
-    background: url(paper.gif);
-    background-position: left top;
-    background-repeat: repeat;
     width: 200px;
 }
 
