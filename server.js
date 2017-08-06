@@ -14,7 +14,7 @@ var articles ={
     'article-two':  {
     title: 'Article Two',
     heading:'Article Two',
-    content:'<pThis is article two.</p>'
+    content:'<p>This is article two.</p>'
 },
      'article-three': {
     title: 'Article Three',
