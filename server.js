@@ -17,7 +17,7 @@ var content = data.content;
 var htmlTemplate= `
 <html>
     <head>
-       ${title}
+        <title>${title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href="/ui/style.css" rel="stylesheet" />
     </head>
@@ -27,9 +27,9 @@ var htmlTemplate= `
             <a href="/">Home</a>
             <hr/>
         </div>
-        ${heading}
+        <h3>${heading}</h3>
         <div>
-           ${content}
+            <p>${content}</p>
         </div>
         </div>
     </body>
