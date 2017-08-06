@@ -9,20 +9,18 @@ var articles ={
     'article-one': {
     title: 'Article One',
     heading:'Article One',
-    content:'This is article one.'
+    content:'<p>This is article one.</p>'
 },
     'article-two':  {
     title: 'Article Two',
     heading:'Article Two',
-    content:'This is article two.'
+    content:'<pThis is article two.</p>'
 },
      'article-three': {
-          {
     title: 'Article Three',
     heading:'Article Three',
-    content:'This is article three.'
+    content:'<p>This is article three.</p>'
 }
-     }
      };
 function createTemplate(data) {
 var title = data.title;
@@ -43,7 +41,7 @@ var htmlTemplate= `
         </div>
         <h3>${heading}</h3>
         <div>
-            <p>${content}</p>
+            ${content}
         </div>
         </div>
     </body>
