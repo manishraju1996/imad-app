@@ -22,6 +22,7 @@ var articles ={
     heading:'Article Three',
     content:'This is article three.'
 }
+     }
      };
 function createTemplate(data) {
 var title = data.title;
