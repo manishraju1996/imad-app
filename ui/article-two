@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Article one</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <a href="/">Home</a>
+            <hr/>
+        </div>
+        <h3>Article Two</h3>
+        <div>
+            <p>This is article two.</p>
+        </div>
+    </body>
+    
+</html>
