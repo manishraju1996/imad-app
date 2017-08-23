@@ -7,19 +7,19 @@ app.use(morgan('combined'));
 
 var articles ={
     'article-one': {
-    title: 'Article One',
-    heading:'Article One',
-    content:'<p>This is article one.</p>'
+    title: 'achievements',
+    heading:'Constriction Still in progress',
+    content:'<p>These are My achievenemts.</p>'
 },
     'article-two':  {
-    title: 'Article Two',
-    heading:'Article Two',
-    content:'<p>This is article two.</p>'
+    title: 'connect',
+    heading:'Constriction Still in progress',
+    content:'<p>Contact Info</p>'
 },
      'article-three': {
-    title: 'Article Three',
-    heading:'Article Three',
-    content:'<p>This is article three.</p>'
+    title: 'Education Background',
+    heading:'Constriction Still in progress',
+    content:'<p></p>'
 }
      };
 function createTemplate(data) {
