@@ -38,7 +38,7 @@ var htmlTemplate= `
         <p/>
         <p/>
         <div>
-            margin:20px;
+            <style>margin:20px;</style>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
         <p/>
