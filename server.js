@@ -40,6 +40,7 @@ var htmlTemplate= `
         <div>
             ${content}
         </div>
+        <p/>
          <div>
             <style>margin:20px;</style>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
