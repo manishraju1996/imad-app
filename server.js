@@ -34,7 +34,7 @@ var htmlTemplate= `
                 <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="center">
+        <div class="container">
             <hr/>
         <h3>${heading}</h3>
         <div>
@@ -42,7 +42,6 @@ var htmlTemplate= `
         </div>
         <p/>
          <div>
-            <style>margin:30;</style>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
         </div>
