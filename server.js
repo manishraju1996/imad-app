@@ -7,14 +7,14 @@ app.use(morgan('combined'));
 
 var articles ={
     'article-one': {
-    title: 'Article One',
+    title: 'My Achievements',
     heading:'Article One',
     content:'<p>This is article one.</p>'
 },
     'article-two':  {
-    title: 'Article Two',
-    heading:'Article Two',
-    content:'<p>This is article two.</p>'
+    title: 'My CV',
+    heading:'MY CV',
+    content:'<a href="https://drive.google.com/file/d/0Bxd_2vk44ADMcmUwOFg1NExnWTA/view?usp=sharing"><p>You can download my CV here.</p></a>'
 },
      'article-three': {
     title: 'Article Three',
