@@ -38,6 +38,7 @@ var htmlTemplate= `
         <div>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
+        <p/>
             <hr/>
         <h3>${heading}</h3>
         <div>
