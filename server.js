@@ -38,6 +38,7 @@ var htmlTemplate= `
         <p/>
         <p/>
         <div>
+            margin:20px;
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
         <p/>
