@@ -34,13 +34,12 @@ var htmlTemplate= `
                 <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="container">
+        <div class="center">
         <div>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
             <hr/>
-        </div><p>
+        </div>
         <h3>${heading}</h3>
-        </p>
         <div>
             ${content}
         </div>
