@@ -36,7 +36,7 @@ var htmlTemplate= `
     <body>
         <div class="container">
         <div>
-            <a href="/">Home</a>
+               <a class="btn" href="http://manishraju1996.imad.hasura-app.io/article-one">My Achievements</a>
             <hr/>
         </div>
         <h3>${heading}</h3>
