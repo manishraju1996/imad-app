@@ -42,7 +42,7 @@ var htmlTemplate= `
         </div>
         <p/>
          <div>
-            <style>margin:20px;</style>
+            <style>margin:30px;</style>
                <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
         </div>
