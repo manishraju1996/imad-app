@@ -35,18 +35,14 @@ var htmlTemplate= `
     </head>
     <body>
         <div class="center">
-        <p/>
-        <p/>
-        <div>
-            <style>margin:20px;</style>
-               <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
-        </div>
-        <p/>
-        <p/>
             <hr/>
         <h3>${heading}</h3>
         <div>
             ${content}
+        </div>
+         <div>
+            <style>margin:20px;</style>
+               <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
         </div>
         </div>
     </body>
