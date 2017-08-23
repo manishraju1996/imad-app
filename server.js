@@ -36,10 +36,11 @@ var htmlTemplate= `
     <body>
         <div class="container">
         <div>
-               <a class="btn" href="http://manishraju1996.imad.hasura-app.io/article-one">My Achievements</a>
+               <a class="btn" href="http://manishraju1996.imad.hasura-app.io">HOME</a>
             <hr/>
-        </div><p></p>
+        </div><p>
         <h3>${heading}</h3>
+        </p>
         <div>
             ${content}
         </div>
