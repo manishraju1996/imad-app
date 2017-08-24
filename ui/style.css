@@ -61,6 +61,7 @@ a.btn:hover {
 }
 
 .fa {
+    position: bottom;
     padding: 20px;
     font-size: 30px;
     width: 50px;
