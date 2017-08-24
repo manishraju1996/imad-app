@@ -3,6 +3,7 @@ body {
     background-color: white;
     background-image: url("https://scontent.fbom6-1.fna.fbcdn.net/v/t31.0-8/15288635_994281157384234_943613798413231431_o.jpg?oh=ada838b300c73624330c8acbdf63cf4d&oe=5A35EB57");
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .center {
