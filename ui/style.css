@@ -1,39 +1,79 @@
-<!doctype html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/ui/style.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div class="center container">
-           <a href="https://rajumanish96.wordpress.com/">
-            <img src="https://scontent.fbom6-1.fna.fbcdn.net/v/t1.0-9/12573025_612057668932004_1360056590570520350_n.jpg?oh=3194fc0e540e853e0c0b862aa1e544da&oe=59F4DF62" class="img-medium"/>
-            </a>
-            
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am Manish and this is my webapp.
-            <p>Here you can have a look on my achievements, skill sets and hobbies.</p>
-        </div>
-         <div class="center"><p>
-              <a class="btn" href="http://manishraju1996.imad.hasura-app.io/article-one">My Achievements</a>
-               <a class="btn" href="https://drive.google.com/file/d/0Bxd_2vk44ADMcmUwOFg1NExnWTA/view?usp=sharing" target="_blank">My Cv</a>
-                <a class="btn" href="http://manishraju1996.imad.hasura-app.io/article-two">Connect with me </a>
-                <a class="btn" href="http://manishraju1996.imad.hasura-app.io/article-three">Educational Background</a>
-         </p>
-         </div>
-         <div class="container">
-        <footer class="container center black xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-instagram"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-google-plus"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-</footer>
-</div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
-</html>
+body {
+    font-family: sans-serif;
+    background-color: white;
+    background-image: url("https://scontent.fbom6-1.fna.fbcdn.net/v/t31.0-8/15288635_994281157384234_943613798413231431_o.jpg?oh=ada838b300c73624330c8acbdf63cf4d&oe=5A35EB57");
+    background-position: center center;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.text-big {
+    font-size: 250%;
+     text-shadow: 20px 20px 50px white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    margin: auto;
+    height: 200px;
+     border-radius: 500px;
+    width: 200px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.container{
+    align-items: center;
+    max-width:800px;
+    margin:auto;
+    color:#4a4a4a;
+    font-family:sans-serif;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+a.btn {
+    margin: 20px;
+    opacity: 0.7;
+	background: linear-gradient(45deg, rgba(115,184,255,0.65) 0%,rgba(109,124,255,0.65) 50%,rgba(83,50,108,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+a.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+.fa {
+    position: bottom;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.6;
+}
+
+/* Set a specific color for each brand */
+
+
