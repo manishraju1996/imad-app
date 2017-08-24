@@ -64,7 +64,7 @@ a.btn:hover {
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: bottom;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -83,5 +83,6 @@ a.btn:hover {
 
 /* Twitter */
 .fa-twitter {
+    background: #3B5998;
     color: white;
 }
