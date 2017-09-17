@@ -13,23 +13,6 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles ={
-    'article-one': {
-    title: 'achievements',
-    heading:'Construction Still in progress',
-    content:'<p>These are My achievenemts.</p>'
-},
-    'article-two':  {
-    title: 'connect',
-    heading:'Construction Still in progress',
-    content:'<p>Contact Info</p>'
-},
-     'article-three': {
-    title: 'Education Background',
-    heading:'Construction Still in progress',
-    content:'<p></p>'
-}
-     };
 function createTemplate(data) {
 var title = data.title;
 var heading = data.heading;
